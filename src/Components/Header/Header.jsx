@@ -13,7 +13,7 @@ const Header = ()=>{
         <>
         <header>
             <div className={styles.leftBlock} >
-                <a href=""><img src="public\img\logoo.svg" alt="" /></a>
+                <a href=""><img src="/img/logoo.svg" alt="" /></a>
             </div>
             <div className={styles.rightBlock} >
                 <div className={styles.selectBlock} >
