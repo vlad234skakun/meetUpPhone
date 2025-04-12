@@ -25,8 +25,6 @@ const Header = ()=>{
                 </div>
                 <a className={styles.Login} href="">{ language === 'ru' ? 'Войти' : 'Log in'}</a>  
                 <Button>{ language === 'ru' ? 'Регистрация' : 'Sign in'}</Button>
-
-                
             </div>
         </header>
         
