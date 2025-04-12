@@ -1,0 +1,50 @@
+header { 
+    display: flex;
+    justify-content: space-between;
+    margin: 4px 4px 15px 24px;
+}
+
+.rightBlock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 94px;
+    height: 34px;
+    margin-top: 5px;
+    /* border-radius: 50%; */
+}
+
+.Login {
+    text-decoration: none;
+    color: #212121;
+}
+
+.selectBlock {
+    display: flex;
+    align-items: center;
+    gap: 1.5px;
+}
+
+select { 
+    appearance: none; /* Убираем стандартный стиль */
+    -webkit-appearance: none; /* Для Safari */
+    -moz-appearance: none; /* Для Firefox */
+    background-color: #fff; /* Цвет фона */
+    border: none; /* Граница */
+    color: #212121;
+    background-color: transparent;
+}
+
+select:focus {
+    outline: none;
+}
+select option {
+    background: white;
+    color: #212121; 
+    padding: 10px;
+    
+    
+}
