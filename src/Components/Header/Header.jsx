@@ -12,6 +12,8 @@ const Header = ()=>{
     return(
         <>
         <header>
+
+            
             <div className={styles.leftBlock} >
                 <a href=""><img src="/img/logoo.svg" alt="" /></a>
             </div>
