@@ -1,11 +1,11 @@
-button { 
+.button { 
     background-color: #00798A;
     color: white;
     padding: 6px 13px;
     border-radius: 6px;
     border: none;
 }
-button:active {
+.button:active {
     background-color: #005f6b;
     
 }

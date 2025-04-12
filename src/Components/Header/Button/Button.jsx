@@ -4,7 +4,7 @@ const Button = ({children}) => {
   return (
     <>
     <h1></h1>
-    <button >
+    <button className={styles.button} >
       {children}
     </button>
     </>
